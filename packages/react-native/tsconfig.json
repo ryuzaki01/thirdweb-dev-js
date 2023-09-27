@@ -3,7 +3,9 @@
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "./src",
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true
   },
   "typeRoots": ["../node_modules/@types"],
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],
